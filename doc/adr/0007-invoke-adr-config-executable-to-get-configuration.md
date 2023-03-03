@@ -1,6 +1,4 @@
-# 7. Invoke adr-config executable to get configuration
-
-Date: 2016-12-17
+# Invoke adr-config executable to get configuration
 
 ## Status
 
@@ -8,7 +6,7 @@ Accepted
 
 ## Context
 
-Packagers (e.g. Homebrew developers) want to configure adr-tools to match the conventions of their installation. 
+Packagers (e.g. Homebrew developers) want to configure adr-tools to match the conventions of their installation.
 
 Currently, this is done by sourcing a file `config.sh`, which should sit beside the `adr` executable.
 
